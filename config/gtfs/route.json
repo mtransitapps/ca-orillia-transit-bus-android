@@ -3,32 +3,35 @@
     "use_route_short_name_for_route_id": false,
     "route_short_name_cleaners": [
         {
-            "regex": ".*"
+            "route_id_comment": "1",
+            "regex": "^North$",
+            "replacement": "NRT"
+        },
+        {
+            "route_id_comment": "2",
+            "regex": "^Laclie$",
+            "replacement": "LRT"
+        },
+        {
+            "route_id_comment": "3",
+            "regex": "^South$",
+            "replacement": "SRT"
         }
     ],
     "route_to_short_name_configs": [
         {
-            "route_id": "1",
-            "route_short_name": "NRT"
-        },
-        {
-            "route_id": "2",
-            "route_short_name": "LRT"
-        },
-        {
-            "route_id": "3",
-            "route_short_name": "SRT"
-        },
-        {
-            "route_id": "4",
+            "route_id_comment": "4",
+            "route_long_name": "Georgian",
             "route_short_name": "GRT"
         },
         {
-            "route_id": "7",
+            "route_id_comment": "7",
+            "route_long_name": "West Ridge Via Old Barrie Road",
             "route_short_name": "WROBR"
         },
         {
-            "route_id": "8",
+            "route_id_comment": "8",
+            "route_long_name": "West Ridge Via Coldwater Road",
             "route_short_name": "WRCR"
         }
     ],
