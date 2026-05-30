@@ -1,0 +1,101 @@
+{
+    "default_route_id_enabled": true,
+    "use_route_short_name_for_route_id": false,
+    "route_short_name_cleaners": [
+        {
+            "route_id_comment": "1",
+            "regex": "^North$",
+            "replacement": "NRT"
+        },
+        {
+            "route_id_comment": "2",
+            "regex": "^Laclie$",
+            "replacement": "LRT"
+        },
+        {
+            "route_id_comment": "3",
+            "regex": "^South$",
+            "replacement": "SRT"
+        }
+    ],
+    "route_to_short_name_configs": [
+        {
+            "route_id_comment": "4",
+            "route_long_name": "Georgian",
+            "route_short_name": "GRT"
+        },
+        {
+            "route_id_comment": "7",
+            "route_long_name": "West Ridge Via Old Barrie Road",
+            "route_short_name": "WROBR"
+        },
+        {
+            "route_id_comment": "8",
+            "route_long_name": "West Ridge Via Coldwater Road",
+            "route_short_name": "WRCR"
+        }
+    ],
+    "default_route_long_name_enabled": true,
+    "route_colors_ignored": [
+        "000000"
+    ],
+    "direction_finder_enabled": true,
+    "allow_non_descriptive_head_signs_until": {},
+    "trip_headsign_remove_via": true,
+    "trip_headsign_cleaners": [],
+    "stop_id_not_supported_configs": [
+        {
+            "original_stop_id": "GRT",
+            "stop_id_int": 700000
+        },
+        {
+            "original_stop_id": "LRT",
+            "stop_id_int": 1200000
+        },
+        {
+            "original_stop_id": "NRT",
+            "stop_id_int": 1800000
+        },
+        {
+            "original_stop_id": "SRT",
+            "stop_id_int": 1900000
+        },
+        {
+            "original_stop_id": "WROBR",
+            "stop_id_int": 230015218
+        },
+        {
+            "original_stop_id": "WRCR",
+            "stop_id_int": 23000318
+        }
+    ],
+    "stop_id_previous_char_configs": [
+        {
+            "char": "GR",
+            "id_part": 700000
+        },
+        {
+            "char": "LR",
+            "id_part": 1200000
+        },
+        {
+            "char": "NR",
+            "id_part": 1800000
+        },
+        {
+            "char": "SR",
+            "id_part": 1900000
+        },
+        {
+            "char": "WR",
+            "id_part": 2300000
+        }
+    ],
+    "stop_id_next_char_configs": [
+        {
+            "char": "AA",
+            "id_part": 1000
+        }
+    ],
+    "stop_name_cleaners": []
+}
