@@ -39,6 +39,45 @@
     "route_colors_ignored": [
         "000000"
     ],
+    "route_colors_comment": "PDF map on https://www.orillia.ca/roads-and-environment/getting-around/transit/transit-schedule-and-fares/",
+    "route_colors": [
+        {
+            "route_id": "1",
+            "route_short_name": "NRT",
+            "route_long_name": "North",
+            "color": "18BA18"
+        },
+        {
+            "route_id": "2",
+            "route_short_name": "LRT",
+            "route_long_name": "Laclie",
+            "color": "00A2E0"
+        },
+        {
+            "route_id": "3",
+            "route_short_name": "SRT",
+            "route_long_name": "South",
+            "color": "9D10DE"
+        },
+        {
+            "route_id": "4",
+            "route_short_name": "GRT",
+            "route_long_name": "Georgian",
+            "color": "E0761F"
+        },
+        {
+            "route_id": "7",
+            "route_short_name": "WROBR",
+            "route_long_name": "West Ridge Via Old Barrie Road",
+            "color": "CC1414"
+        },
+        {
+            "route_id": "8",
+            "route_short_name": "WRCR",
+            "route_long_name": "West Ridge Via Coldwater Road",
+            "color": "1B438B"
+        }
+    ],
     "direction_finder_enabled": true,
     "allow_non_descriptive_head_signs_until": {},
     "trip_headsign_remove_via": true,
